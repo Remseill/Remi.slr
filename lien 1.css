@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(45deg, rgb(147, 0, 167), rgb(0, 162, 255));
+    height: 98.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+
+    box-shadow: 10px 20px 40px rgb(0, 0, 0);
+    cursor: pointer;
+
+
+
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+          
+
+    
+}
+img:hover{
+
+          
+
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+
+
+
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+
+header h2{
+
+
+
+margin-top: -275px;
+margin-left: -220px;
+color: rgb(0, 0, 0);
+border: 2px solid rgb(0, 0, 0);
+text-align: center;
+border-radius: 40px;
+background-color: rgb(255, 255, 255);
+padding: 5px;
+width: 120px;
+
+
+
+
+
+
+}
